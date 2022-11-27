@@ -10,6 +10,7 @@ import Chat from './components/Chat'
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Login from "./components/Login";
 import {useStateValue} from "./features/StateProvider";
+import Frontinfo from "./components/Frontinfo";
 
 
 
@@ -69,6 +70,7 @@ function App(){
             <Route path="/">
             <Sidebar />
             {/* <Chat /> */}
+            <Frontinfo />
             </Route>
             </Switch>
             </BrowserRouter>  

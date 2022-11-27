@@ -1,0 +1,19 @@
+.body__container{
+    align-items: center;
+   
+}
+
+.container__box{
+    position: absolute;
+    top: 18%;
+    margin-left: 9%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container__box h1{
+    font: inherit;
+    font-size: 26px;
+    vertical-align: initial;
+}

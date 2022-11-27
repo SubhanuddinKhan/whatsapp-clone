@@ -28,7 +28,7 @@ function Login() {
             <img src='https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png' alt="" />
 
             <div className='login__text'>
-                <h1>Sig in to Whatsapp</h1>
+                <h1>Sign in to Whatsapp</h1>
             </div>
 
             <Button onClick={signIn}>
